@@ -8,7 +8,8 @@
 
    <com.google.android.exoplayer2.ui.StyledPlayerView
        android:id="@+id/exo"
-       app:show_subtitle_button="true"
+       app:use_controller="false"
+       app:show_subtitle_button="false"
        app:show_buffering="when_playing"
        android:layout_width="match_parent"
        android:layout_height="match_parent"/>
